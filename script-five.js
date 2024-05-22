@@ -242,7 +242,7 @@ $.getJSON(
       $(".mapboxgl-popup").remove();
     });
 
-    map.fitBounds(bounds, { padding: 80 });
+    map.fitBounds(bounds, { padding: 150 });
   }
 );
 
